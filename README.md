@@ -30,7 +30,7 @@ This project replicates the core functionality of regex101.com using Python and 
 
       http://127.0.0.1:5000/
 
-# OUTPUT
+# APPLICATION GUI
 
 <img width="1365" height="726" alt="Image" src="https://github.com/user-attachments/assets/717d91a2-3372-41c6-a7ae-a85b41806e01" />
 
