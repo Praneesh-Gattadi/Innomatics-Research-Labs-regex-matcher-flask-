@@ -16,18 +16,18 @@ This project replicates the core functionality of regex101.com using Python and 
 ## 🚀 How to Run the Project
 1. Clone the repository:
 
-git clone <https://github.com/Praneesh-Gattadi/Innomatics-Research-Labs-regex-matcher-flask->
+  git clone <https://github.com/Praneesh-Gattadi/Innomatics-Research-Labs-regex-matcher-flask->
 
 2. Install dependencies:
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 3. Run the application:
 
-python app.py
+  python app.py
 
 4. Open your browser and go to:
 
-http://127.0.0.1:5000/
+  http://127.0.0.1:5000/
 
 
