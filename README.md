@@ -16,7 +16,7 @@ This project replicates the core functionality of regex101.com using Python and 
 ## 🚀 How to Run the Project
 1. Clone the repository:
 
-git clone <your-repo-link>
+git clone <https://github.com/Praneesh-Gattadi/Innomatics-Research-Labs-regex-matcher-flask->
 
 2. Install dependencies:
 
