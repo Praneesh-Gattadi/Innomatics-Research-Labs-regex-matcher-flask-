@@ -1,6 +1,3 @@
-# Innomatics-Research-Labs-regex-matcher-flask-
-A Flask-based web application that replicates the core functionality of regex101.com
-
 # Regex Matcher – Core Functionality Clone
 
 This project replicates the core functionality of regex101.com using Python and Flask.
