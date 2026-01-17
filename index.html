@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regex Matcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            width: 500px;
+        }
+        textarea, input {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .match {
+            background: #e6f7ff;
+            padding: 8px;
+            margin-top: 5px;
+            border-left: 4px solid #007BFF;
+        }
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Regex Matcher (Core Functionality)</h2>
+
+    <form method="POST">
+        <label>Test String:</label>
+        <textarea name="test_string" rows="4" required></textarea>
+
+        <label>Regular Expression:</label>
+        <input type="text" name="regex_pattern" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if error %}
+        <div class="error">{{ error }}</div>
+    {% endif %}
+
+    {% if matches %}
+        <h3>Matched Results:</h3>
+        {% for match in matches %}
+            <div class="match">
+                Match: <b>{{ match[0] }}</b> |
+                Start: {{ match[1] }} |
+                End: {{ match[2] }}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+</body>
+</html>
